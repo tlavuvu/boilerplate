@@ -40,12 +40,18 @@ jobs:
           git reset --hard HEAD
           git clean -fdx
 
-      - name: Bump version and create tag
-        env:
-          NPM_CONFIG_IGNORE_SCRIPTS: true
+      - name: Bump version and create tag (manual, no npm)
         run: |
-          git status
-          npm version patch -m "chore(release): v%s [skip ci]"
+          CURRENT=$(node -p "require('./package.json').version")
+          echo "Current version: $CURRENT"
+          NEW=$(node -e "const v=process.argv[1].split('.').map(Number); v[2]++; process.stdout.write(v.join('.'))" "$CURRENT")
+          echo "New version: $NEW"
+          node -e "const fs=require('fs'); const p=JSON.parse(fs.readFileSync('package.json','utf8')); p.version=process.env.NEW_VERSION; fs.writeFileSync('package.json', JSON.stringify(p, null, 2)+'\n')"
+          git add package.json
+          git commit -m "chore(release): v$NEW [skip ci]" || echo "Nothing to commit"
+          git tag v$NEW
+        env:
+          NEW_VERSION: ${{ steps.setver.outputs.new }}
 
       - name: Push changes and tags
         env:
