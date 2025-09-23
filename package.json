@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "@vincentseitlhamo/boilerplate",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -22,6 +22,9 @@
   ],
   "author": "",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "commander": "^12.1.0"
   },
