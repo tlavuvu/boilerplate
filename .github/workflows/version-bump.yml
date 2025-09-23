@@ -35,11 +35,16 @@ jobs:
           git fetch --tags origin
           git pull --rebase origin main
 
+      - name: Ensure clean working tree
+        run: |
+          git reset --hard HEAD
+          git clean -fdx
+
       - name: Bump version and create tag
+        env:
+          NPM_CONFIG_IGNORE_SCRIPTS: true
         run: |
           git status
-          # Ensure working tree is clean (skip installs to avoid lifecycle scripts changing files)
-          npm config set ignore-scripts true
           npm version patch -m "chore(release): v%s [skip ci]"
 
       - name: Push changes and tags
