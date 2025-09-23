@@ -1,0 +1,35 @@
+{
+  "name": "boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "CLI to create a Next.js boilerplate with auth, RBAC, and MySQL",
+  "bin": {
+    "boilerplate": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && cpx \"src/templates/**/*\" dist/templates",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "nextjs",
+    "cli",
+    "boilerplate",
+    "prisma",
+    "mysql",
+    "rbac"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "cpx": "^1.5.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  }
+}
+

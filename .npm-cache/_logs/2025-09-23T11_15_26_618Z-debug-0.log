@@ -1,0 +1,251 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/vincentseitlhamo/Documents/apps/boilerplate/.npmrc
+5 silly config load:file:/Users/vincentseitlhamo/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm i
+8 verbose argv "i"
+9 verbose logfile logs-max:10 dir:/Users/vincentseitlhamo/Documents/apps/boilerplate/.npm-cache/_logs/2025-09-23T11_15_26_618Z-
+10 verbose logfile /Users/vincentseitlhamo/Documents/apps/boilerplate/.npm-cache/_logs/2025-09-23T11_15_26_618Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@cspotcode/source-map-support': [ '0.8.1' ],
+15 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+15 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+15 silly audit   '@jridgewell/trace-mapping': [ '0.3.9' ],
+15 silly audit   '@tsconfig/node10': [ '1.0.11' ],
+15 silly audit   '@tsconfig/node12': [ '1.0.11' ],
+15 silly audit   '@tsconfig/node14': [ '1.0.3' ],
+15 silly audit   '@tsconfig/node16': [ '1.0.4' ],
+15 silly audit   '@types/node': [ '22.18.6' ],
+15 silly audit   '@types/strip-bom': [ '3.0.0' ],
+15 silly audit   '@types/strip-json-comments': [ '0.0.30' ],
+15 silly audit   acorn: [ '8.15.0' ],
+15 silly audit   'acorn-walk': [ '8.3.4' ],
+15 silly audit   anymatch: [ '3.1.3', '1.3.2' ],
+15 silly audit   arg: [ '4.1.3' ],
+15 silly audit   'arr-diff': [ '2.0.0', '4.0.0' ],
+15 silly audit   'arr-flatten': [ '1.1.0' ],
+15 silly audit   'arr-union': [ '3.1.0' ],
+15 silly audit   'array-unique': [ '0.2.1', '0.3.2' ],
+15 silly audit   'assign-symbols': [ '1.0.0' ],
+15 silly audit   'async-each': [ '1.0.6' ],
+15 silly audit   atob: [ '2.1.2' ],
+15 silly audit   'babel-runtime': [ '6.26.0' ],
+15 silly audit   'balanced-match': [ '1.0.2' ],
+15 silly audit   base: [ '0.11.2' ],
+15 silly audit   'define-property': [ '1.0.0', '0.2.5', '2.0.2' ],
+15 silly audit   isobject: [ '3.0.1', '2.1.0' ],
+15 silly audit   'binary-extensions': [ '2.3.0', '1.13.1' ],
+15 silly audit   bindings: [ '1.5.0' ],
+15 silly audit   'brace-expansion': [ '1.1.12' ],
+15 silly audit   braces: [ '3.0.3', '2.3.2', '1.8.5' ],
+15 silly audit   'buffer-from': [ '1.1.2' ],
+15 silly audit   'cache-base': [ '1.0.1' ],
+15 silly audit   chokidar: [ '3.6.0', '1.7.0' ],
+15 silly audit   'class-utils': [ '0.3.6' ],
+15 silly audit   'is-descriptor': [ '0.1.7', '1.0.3' ],
+15 silly audit   'collection-visit': [ '1.0.0' ],
+15 silly audit   commander: [ '12.1.0' ],
+15 silly audit   'component-emitter': [ '1.3.1' ],
+15 silly audit   'concat-map': [ '0.0.1' ],
+15 silly audit   'copy-descriptor': [ '0.1.1' ],
+15 silly audit   'core-js': [ '2.6.12' ],
+15 silly audit   'core-util-is': [ '1.0.3' ],
+15 silly audit   cpx: [ '1.5.0' ],
+15 silly audit   'extend-shallow': [ '2.0.1', '3.0.2' ],
+15 silly audit   'expand-brackets': [ '2.1.4', '0.1.5' ],
+15 silly audit   extglob: [ '2.0.4', '0.3.2' ],
+15 silly audit   'fill-range': [ '4.0.0', '2.2.4', '7.1.1' ],
+15 silly audit   fsevents: [ '1.2.13', '2.3.3' ],
+15 silly audit   'glob-parent': [ '2.0.0', '5.1.2' ],
+15 silly audit   'is-binary-path': [ '1.0.1', '2.1.0' ],
+15 silly audit   'is-extglob': [ '1.0.0', '2.1.1' ],
+15 silly audit   'is-glob': [ '2.0.1', '4.0.3' ],
+15 silly audit   'is-number': [ '3.0.0', '2.1.0', '7.0.0', '4.0.0' ],
+15 silly audit   'kind-of': [ '3.2.2', '6.0.3', '4.0.0' ],
+15 silly audit   mkdirp: [ '0.5.6', '1.0.4' ],
+15 silly audit   'normalize-path': [ '2.1.1', '3.0.0' ],
+15 silly audit   readdirp: [ '2.2.1', '3.6.0' ],
+15 silly audit   micromatch: [ '3.1.10', '2.3.11' ],
+15 silly audit   'to-regex-range': [ '2.1.1', '5.0.1' ],
+15 silly audit   'create-require': [ '1.1.1' ],
+15 silly audit   debug: [ '2.6.9' ],
+15 silly audit   'decode-uri-component': [ '0.2.2' ],
+15 silly audit   diff: [ '4.0.2' ],
+15 silly audit   duplexer: [ '0.1.2' ],
+15 silly audit   'dynamic-dedupe': [ '0.3.0' ],
+15 silly audit   'expand-range': [ '1.8.2' ],
+15 silly audit   'is-extendable': [ '1.0.1', '0.1.1' ],
+15 silly audit   'file-uri-to-path': [ '1.0.0' ],
+15 silly audit   'filename-regex': [ '2.0.1' ],
+15 silly audit   'find-index': [ '0.1.1' ],
+15 silly audit   'for-in': [ '1.0.2' ],
+15 silly audit   'for-own': [ '0.1.5' ],
+15 silly audit   'fragment-cache': [ '0.2.1' ],
+15 silly audit   'fs.realpath': [ '1.0.0' ],
+15 silly audit   'function-bind': [ '1.1.2' ],
+15 silly audit   'get-value': [ '2.0.6' ],
+15 silly audit   glob: [ '7.2.3' ],
+15 silly audit   'glob-base': [ '0.3.0' ],
+15 silly audit   glob2base: [ '0.0.12' ],
+15 silly audit   'graceful-fs': [ '4.2.11' ],
+15 silly audit   'has-value': [ '1.0.0', '0.3.1' ],
+15 silly audit   'has-values': [ '1.0.0', '0.1.4' ],
+15 silly audit   hasown: [ '2.0.2' ],
+15 silly audit   inflight: [ '1.0.6' ],
+15 silly audit   inherits: [ '2.0.4' ],
+15 silly audit   'is-accessor-descriptor': [ '1.0.1' ],
+15 silly audit   'is-buffer': [ '1.1.6' ],
+15 silly audit   'is-core-module': [ '2.16.1' ],
+15 silly audit   'is-data-descriptor': [ '1.0.1' ],
+15 silly audit   'is-dotfile': [ '1.0.3' ],
+15 silly audit   'is-equal-shallow': [ '0.1.3' ],
+15 silly audit   'is-plain-object': [ '2.0.4' ],
+15 silly audit   'is-posix-bracket': [ '0.1.1' ],
+15 silly audit   'is-primitive': [ '2.0.0' ],
+15 silly audit   'is-windows': [ '1.0.2' ],
+15 silly audit   isarray: [ '1.0.0' ],
+15 silly audit   'make-error': [ '1.3.6' ],
+15 silly audit   'map-cache': [ '0.2.2' ],
+15 silly audit   'map-visit': [ '1.0.0' ],
+15 silly audit   'math-random': [ '1.0.4' ],
+15 silly audit   minimatch: [ '3.1.2' ],
+15 silly audit   minimist: [ '1.2.8' ],
+15 silly audit   'mixin-deep': [ '1.3.2' ],
+15 silly audit   ms: [ '2.0.0' ],
+15 silly audit   nan: [ '2.23.0' ],
+15 silly audit   nanomatch: [ '1.2.13' ],
+15 silly audit   'object-copy': [ '0.1.0' ],
+15 silly audit   'object-visit': [ '1.0.1' ],
+15 silly audit   'object.omit': [ '2.0.1' ],
+15 silly audit   'object.pick': [ '1.3.0' ],
+15 silly audit   once: [ '1.4.0' ],
+15 silly audit   'parse-glob': [ '3.0.4' ],
+15 silly audit   pascalcase: [ '0.1.1' ],
+15 silly audit   'path-is-absolute': [ '1.0.1' ],
+15 silly audit   'path-parse': [ '1.0.7' ],
+15 silly audit   picomatch: [ '2.3.1' ],
+15 silly audit   'posix-character-classes': [ '0.1.1' ],
+15 silly audit   preserve: [ '0.2.0' ],
+15 silly audit   'process-nextick-args': [ '2.0.1' ],
+15 silly audit   randomatic: [ '3.1.1' ],
+15 silly audit   'readable-stream': [ '2.3.8' ],
+15 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+15 silly audit   'regenerator-runtime': [ '0.11.1' ],
+15 silly audit   'regex-cache': [ '0.4.4' ],
+15 silly audit   'regex-not': [ '1.0.2' ],
+15 silly audit   'remove-trailing-separator': [ '1.1.0' ],
+15 silly audit   'repeat-element': [ '1.1.4' ],
+15 silly audit   'repeat-string': [ '1.6.1' ],
+15 silly audit   resolve: [ '1.22.10' ],
+15 silly audit   'resolve-url': [ '0.2.1' ],
+15 silly audit   ret: [ '0.1.15' ],
+15 silly audit   rimraf: [ '2.7.1' ],
+15 silly audit   'safe-regex': [ '1.1.0' ],
+15 silly audit   'set-value': [ '2.0.1' ],
+15 silly audit   'shell-quote': [ '1.8.3' ],
+15 silly audit   snapdragon: [ '0.8.2' ],
+15 silly audit   'snapdragon-node': [ '2.1.1' ],
+15 silly audit   'snapdragon-util': [ '3.0.1' ],
+15 silly audit   'source-map': [ '0.5.7', '0.6.1' ],
+15 silly audit   'source-map-resolve': [ '0.5.3' ],
+15 silly audit   'source-map-support': [ '0.5.21' ],
+15 silly audit   'source-map-url': [ '0.4.1' ],
+15 silly audit   'split-string': [ '3.1.0' ],
+15 silly audit   'static-extend': [ '0.1.2' ],
+15 silly audit   string_decoder: [ '1.1.1' ],
+15 silly audit   'strip-bom': [ '3.0.0' ],
+15 silly audit   'strip-json-comments': [ '2.0.1' ],
+15 silly audit   subarg: [ '1.0.0' ],
+15 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+15 silly audit   'to-object-path': [ '0.3.0' ],
+15 silly audit   'to-regex': [ '3.0.2' ],
+15 silly audit   'tree-kill': [ '1.2.2' ],
+15 silly audit   'ts-node': [ '10.9.2' ],
+15 silly audit   'ts-node-dev': [ '2.0.0' ],
+15 silly audit   tsconfig: [ '7.0.0' ],
+15 silly audit   typescript: [ '5.9.2' ],
+15 silly audit   'undici-types': [ '6.21.0' ],
+15 silly audit   'union-value': [ '1.0.1' ],
+15 silly audit   'unset-value': [ '1.0.0' ],
+15 silly audit   urix: [ '0.1.0' ],
+15 silly audit   use: [ '3.1.1' ],
+15 silly audit   'util-deprecate': [ '1.0.2' ],
+15 silly audit   'v8-compile-cache-lib': [ '3.0.1' ],
+15 silly audit   wrappy: [ '1.0.2' ],
+15 silly audit   xtend: [ '4.0.2' ],
+15 silly audit   yn: [ '3.1.1' ]
+15 silly audit }
+16 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 463ms
+17 silly audit report {
+17 silly audit report   braces: [
+17 silly audit report     {
+17 silly audit report       id: 1089939,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-cwfw-4gq5-mrqx',
+17 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in braces',
+17 silly audit report       severity: 'low',
+17 silly audit report       vulnerable_versions: '<2.3.1',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1098094,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-grv7-fg5c-xmjg',
+17 silly audit report       title: 'Uncontrolled resource consumption in braces',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<3.0.3',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1085715,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-g95f-p29q-9xw4',
+17 silly audit report       title: 'Regular Expression Denial of Service in braces',
+17 silly audit report       severity: 'low',
+17 silly audit report       vulnerable_versions: '<2.3.1',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   micromatch: [
+17 silly audit report     {
+17 silly audit report       id: 1098681,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-952p-6rrq-rcjv',
+17 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in micromatch',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<4.0.8',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ]
+17 silly audit report }
+18 silly packumentCache corgi:https://registry.npmjs.org/braces cache-miss
+19 silly packumentCache corgi:https://registry.npmjs.org/micromatch cache-miss
+20 http cache https://registry.npmjs.org/braces 10ms (cache hit)
+21 silly packumentCache corgi:https://registry.npmjs.org/braces set size:35919 disposed:false
+22 http cache https://registry.npmjs.org/micromatch 10ms (cache hit)
+23 silly packumentCache corgi:https://registry.npmjs.org/micromatch set size:71776 disposed:false
+24 silly packumentCache corgi:https://registry.npmjs.org/readdirp cache-miss
+25 silly packumentCache corgi:https://registry.npmjs.org/anymatch cache-miss
+26 http cache https://registry.npmjs.org/readdirp 4ms (cache hit)
+27 silly packumentCache corgi:https://registry.npmjs.org/readdirp set size:46202 disposed:false
+28 http cache https://registry.npmjs.org/anymatch 4ms (cache hit)
+29 silly packumentCache corgi:https://registry.npmjs.org/anymatch set size:18345 disposed:false
+30 silly packumentCache corgi:https://registry.npmjs.org/chokidar cache-miss
+31 http cache https://registry.npmjs.org/chokidar 1ms (cache hit)
+32 silly packumentCache corgi:https://registry.npmjs.org/chokidar set size:118541 disposed:false
+33 silly packumentCache corgi:https://registry.npmjs.org/cpx cache-miss
+34 http cache https://registry.npmjs.org/cpx 2ms (cache hit)
+35 silly packumentCache corgi:https://registry.npmjs.org/cpx set size:14117 disposed:false
+36 verbose cwd /Users/vincentseitlhamo/Documents/apps/boilerplate
+37 verbose os Darwin 24.6.0
+38 verbose node v22.19.0
+39 verbose npm  v10.9.3
+40 verbose exit 0
+41 info ok

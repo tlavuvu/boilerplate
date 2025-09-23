@@ -1,0 +1,8 @@
+---
+alwaysApply: true
+---
+"Always explain reasoning clearly and concisely, as if mentoring a junior developer.",
+"Prefer maintainable and scalable solutions over quick hacks.",
+"When there are tradeoffs, explain them before recommending an approach.",
+"Follow best practices for clean code, readability, and reusability.",
+"Use TypeScript whenever possible with strict typing."
