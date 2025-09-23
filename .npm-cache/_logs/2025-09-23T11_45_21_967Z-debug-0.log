@@ -1,0 +1,27 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/vincentseitlhamo/Documents/apps/boilerplate/.npmrc
+5 silly config load:file:/Users/vincentseitlhamo/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm version patch
+8 verbose argv "version" "patch" "--message" "chore(release): v%s"
+9 verbose logfile logs-max:10 dir:/Users/vincentseitlhamo/Documents/apps/boilerplate/.npm-cache/_logs/2025-09-23T11_45_21_967Z-
+10 verbose logfile /Users/vincentseitlhamo/Documents/apps/boilerplate/.npm-cache/_logs/2025-09-23T11_45_21_967Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack Error: Git working directory not clean.
+13 verbose stack     at module.exports (/usr/local/lib/node_modules/npm/node_modules/libnpmversion/lib/enforce-clean.js:26:13)
+13 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/node_modules/libnpmversion/lib/version.js:59:46)
+13 verbose stack     at async Version.change (/usr/local/lib/node_modules/npm/lib/commands/version.js:75:21)
+13 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+13 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+14 error Git working directory not clean.
+15 verbose cwd /Users/vincentseitlhamo/Documents/apps/boilerplate
+16 verbose os Darwin 24.6.0
+17 verbose node v22.19.0
+18 verbose npm  v10.9.3
+19 verbose exit 1
+20 verbose code 1
+21 error A complete log of this run can be found in: /Users/vincentseitlhamo/Documents/apps/boilerplate/.npm-cache/_logs/2025-09-23T11_45_21_967Z-debug-0.log

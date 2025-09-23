@@ -23,7 +23,7 @@
   "author": "",
   "license": "MIT",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "dependencies": {
     "commander": "^12.1.0"
