@@ -1,6 +1,6 @@
 {
   "name": "@vincentseitlhamo/boilerplate",
-  "version": "0.1.0",
+  "version": "",
   "type": "module",
   "description": "CLI to create a Next.js boilerplate with auth, RBAC, and MySQL",
   "bin": {
