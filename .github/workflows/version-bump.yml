@@ -32,12 +32,14 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git remote set-url origin https://${GH_TOKEN}@github.com/${{ github.repository }}.git
+          git fetch --tags origin
+          git pull --rebase origin main
 
       - name: Bump version and create tag
         run: |
           git status
-          # Ensure working tree is clean (no untracked files from previous steps)
-          npm ci
+          # Ensure working tree is clean (skip installs to avoid lifecycle scripts changing files)
+          npm config set ignore-scripts true
           npm version patch -m "chore(release): v%s [skip ci]"
 
       - name: Push changes and tags
