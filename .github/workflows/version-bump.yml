@@ -24,8 +24,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Vincent Seitlhamo"
+          git config user.email "vincentseitlhamo@gmail.com"
 
       - name: Use GITHUB_TOKEN for pushing
         env:
